@@ -1,9 +1,0 @@
-digraph G {
-	graph [bgcolor=transparent, rankdir=LR];
-	node [label="\N", fontname=FreeSans, fontsize=10, shape=record];
-	edge [fontname=FreeSans, fontsize=10, labelfontname=FreeSans, labelfontsize=10];
-	graph [bb="0,0,204,16"];
-	Node1 [label=BaseApplication, height="0.22", width="1.25", color=black, URL="$class_base_application.html", tooltip="Ogre basic application class.", pos="53,8", rects="8,0,98,16"];
-	Node2 [label=LumpApp, height="0.22", width="0.86", color=black, URL="$class_lump_app.html", tooltip="Lump application main class.", pos="165,8", rects="134,0,196,16"];
-	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,98,8 107,8 116,8 126,8 134,8"];
-}

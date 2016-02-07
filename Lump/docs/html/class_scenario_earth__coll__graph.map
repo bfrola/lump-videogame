@@ -1,7 +1,0 @@
-<area shape="rect" href="$class_scenario_base.html" title="ScenarioBase" alt="" coords="104,403,205,429">
-<area shape="rect" href="$class_scenario_sector_base.html" title="ScenarioSectorBase" alt="" coords="5,136,144,163">
-<area shape="rect" href="$class_steerable_base.html" title="SteerableBase" alt="" coords="75,5,181,32">
-<area shape="rect" href="$class_steerable_entity.html" title="SteerableEntity" alt="" coords="143,83,252,109">
-<area shape="rect" href="$class_flock_player.html" title="Specialization of FlockBase class. Implement the player controlled flock behavior..." alt="" coords="131,312,221,339">
-<area shape="rect" href="$class_flock_base.html" title="Abstract class thath manage the generic flock entity." alt="" coords="152,189,235,216">
-<area shape="rect" href="$class_entity_player_ship.html" title="EntityPlayerShip" alt="" coords="243,251,360,277">

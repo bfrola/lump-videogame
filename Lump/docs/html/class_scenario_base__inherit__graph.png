@@ -1,9 +1,0 @@
-digraph G {
-	graph [bgcolor=transparent];
-	node [label="\N", fontname=FreeSans, fontsize=10, shape=record];
-	edge [fontname=FreeSans, fontsize=10, labelfontname=FreeSans, labelfontsize=10];
-	graph [bb="0,0,78,84"];
-	Node1 [label=ScenarioBase, height="0.22", width="1.03", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="39,68", rects="2,60,76,76"];
-	Node2 [label=ScenarioEarth, height="0.22", width="1.08", color=black, URL="$class_scenario_earth.html", pos="39,16", rects="0,8,79,24"];
-	Node1 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,39,60 39,51 39,42 39,31 39,24"];
-}

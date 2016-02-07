@@ -1,9 +1,0 @@
-digraph G {
-	graph [bgcolor=transparent];
-	node [label="\N", fontname=FreeSans, fontsize=10, shape=record];
-	edge [fontname=FreeSans, fontsize=10, labelfontname=FreeSans, labelfontsize=10];
-	graph [bb="0,0,84,84"];
-	Node1 [label=SteerableEntity, height="0.22", width="1.17", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="42,16", rects="0,8,84,24"];
-	Node2 [label=SteerableBase, height="0.22", width="1.06", color=black, URL="$class_steerable_base.html", pos="42,68", rects="4,60,80,76"];
-	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,42,60 42,51 42,42 42,31 42,24"];
-}
