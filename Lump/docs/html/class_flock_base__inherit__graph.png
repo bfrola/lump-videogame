@@ -1,0 +1,15 @@
+digraph G {
+	graph [bgcolor=transparent];
+	node [label="\N", fontname=FreeSans, fontsize=10, shape=record];
+	edge [fontname=FreeSans, fontsize=10, labelfontname=FreeSans, labelfontsize=10];
+	graph [bb="0,0,192,188"];
+	Node1 [label=FlockBase, height="0.22", width="0.83", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="105,68", rects="75,60,135,76"];
+	Node2 [label=SteerableEntity, height="0.22", width="1.17", color=black, URL="$class_steerable_entity.html", pos="105,120", rects="63,112,147,128"];
+	Node3 [label=SteerableBase, height="0.22", width="1.06", color=black, URL="$class_steerable_base.html", pos="105,172", rects="67,164,143,180"];
+	Node4 [label=FlockEnemySoldier, height="0.22", width="1.47", color=black, URL="$class_flock_enemy_soldier.html", tooltip="Specialization of FlockBase class. Implement the enemy flock behavior.", pos="53,16", rects="0,8,106,24"];
+	Node5 [label=FlockPlayer, height="0.22", width="0.94", color=black, URL="$class_flock_player.html", tooltip="Specialization of FlockBase class. Implement the player controlled flock behavior...", pos="158,16", rects="124,8,192,24"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,105,112 105,103 105,94 105,83 105,76"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,105,164 105,155 105,146 105,135 105,128"];
+	Node1 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,97,60 91,54 81,44 69,32 61,24"];
+	Node1 -> Node5 [dir=back, color=midnightblue, style=solid, pos="s,113,60 119,54 129,44 142,32 150,24"];
+}

@@ -1,0 +1,7 @@
+digraph G {
+	graph [bgcolor=transparent, rankdir=LR];
+	node [label="\N", fontname=FreeSans, fontsize=10, shape=record];
+	edge [fontname=FreeSans, fontsize=10, labelfontname=FreeSans, labelfontsize=10];
+	graph [bb="0,0,124,16"];
+	Node1 [label=LumpUserInterface, height="0.22", width="1.50", color=black, URL="$class_lump_user_interface.html", pos="62,8", rects="8,0,116,16"];
+}

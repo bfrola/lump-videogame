@@ -1,0 +1,10 @@
+<area shape="rect" href="$class_steerable_base.html" title="SteerableBase" alt="" coords="5,81,112,108">
+<area shape="rect" href="$class_scenario_sector_base.html" title="ScenarioSectorBase" alt="" coords="161,56,300,82">
+<area shape="rect" href="$class_steerable_entity.html" title="SteerableEntity" alt="" coords="176,106,285,133">
+<area shape="rect" href="$class_entity_asteroid.html" title="EntityAsteroid" alt="" coords="357,5,461,32">
+<area shape="rect" href="$class_entity_flock_item.html" title="EntityFlockItem" alt="" coords="353,56,465,82">
+<area shape="rect" href="$class_entity_planet.html" title="EntityPlanet" alt="" coords="364,106,455,133">
+<area shape="rect" href="$class_entity_player_ship.html" title="EntityPlayerShip" alt="" coords="351,157,468,184">
+<area shape="rect" href="$class_flock_base.html" title="Abstract class thath manage the generic flock entity." alt="" coords="368,208,451,234">
+<area shape="rect" href="$class_flock_enemy_soldier.html" title="Specialization of FlockBase class. Implement the enemy flock behavior." alt="" coords="519,182,652,209">
+<area shape="rect" href="$class_flock_player.html" title="Specialization of FlockBase class. Implement the player controlled flock behavior..." alt="" coords="540,233,631,260">

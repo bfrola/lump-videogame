@@ -1,0 +1,11 @@
+digraph G {
+	graph [bgcolor=transparent];
+	node [label="\N", fontname=FreeSans, fontsize=10, shape=record];
+	edge [fontname=FreeSans, fontsize=10, labelfontname=FreeSans, labelfontsize=10];
+	graph [bb="0,0,84,136"];
+	Node1 [label=EntityPlanet, height="0.22", width="0.97", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="42,16", rects="7,8,78,24"];
+	Node2 [label=SteerableEntity, height="0.22", width="1.17", color=black, URL="$class_steerable_entity.html", pos="42,68", rects="0,60,84,76"];
+	Node3 [label=SteerableBase, height="0.22", width="1.06", color=black, URL="$class_steerable_base.html", pos="42,120", rects="4,112,80,128"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,42,60 42,51 42,42 42,31 42,24"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,42,112 42,103 42,94 42,83 42,76"];
+}

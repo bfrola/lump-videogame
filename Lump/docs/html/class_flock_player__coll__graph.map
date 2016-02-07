@@ -1,0 +1,14 @@
+digraph G {
+	graph [bgcolor=transparent];
+	node [label="\N", fontname=FreeSans, fontsize=10, shape=record];
+	edge [fontname=FreeSans, fontsize=10, labelfontname=FreeSans, labelfontsize=10];
+	graph [bb="0,0,136,220"];
+	Node1 [label=FlockPlayer, height="0.22", width="0.94", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="42,16", rects="8,8,76,24"];
+	Node2 [label=FlockBase, height="0.22", width="0.83", color=black, URL="$class_flock_base.html", tooltip="Abstract class thath manage the generic flock entity.", pos="42,70", rects="12,62,72,78"];
+	Node3 [label=SteerableEntity, height="0.22", width="1.17", color=black, URL="$class_steerable_entity.html", pos="42,150", rects="0,142,84,158"];
+	Node4 [label=SteerableBase, height="0.22", width="1.06", color=black, URL="$class_steerable_base.html", pos="42,204", rects="4,196,80,212"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,42,62 42,52 42,43 42,31 42,24"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,42,142 42,133 42,116 42,92 42,78"];
+	Node4 -> Node3 [dir=back, color=midnightblue, style=solid, pos="s,42,196 42,186 42,177 42,165 42,158"];
+	Node3 -> Node2 [dir=back, color=darkorchid3, style=dashed, label="targetEntity\nchaserEntity", pos="s,44,142 45,133 46,130 46,127 47,124 48,111 48,108 47,96 46,90 45,83 44,78", lp="83,110"];
+}

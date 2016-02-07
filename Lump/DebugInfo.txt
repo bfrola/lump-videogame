@@ -1,0 +1,4 @@
+Null-pointer after loading phase
+
+When (into the code): using the proximity DB
+Cause: Too much memory used

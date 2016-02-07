@@ -1,0 +1,15 @@
+digraph G {
+	graph [bgcolor=transparent];
+	node [label="\N", fontname=FreeSans, fontsize=10, shape=record];
+	edge [fontname=FreeSans, fontsize=10, labelfontname=FreeSans, labelfontsize=10];
+	graph [bb="0,0,174,234"];
+	Node1 [label=EntityFlockItem, height="0.22", width="1.25", color=black, fillcolor=grey75, style=filled, fontcolor=black, pos="45,16", rects="0,8,90,24"];
+	Node2 [label=SteerableEntity, height="0.22", width="1.17", color=black, URL="$class_steerable_entity.html", pos="57,164", rects="15,156,99,172"];
+	Node3 [label=SteerableBase, height="0.22", width="1.06", color=black, URL="$class_steerable_base.html", pos="57,218", rects="19,210,95,226"];
+	Node4 [label=FlockBase, height="0.22", width="0.83", color=black, URL="$class_flock_base.html", tooltip="Abstract class thath manage the generic flock entity.", pos="77,84", rects="47,76,107,92"];
+	Node2 -> Node1 [dir=back, color=midnightblue, style=solid, pos="s,54,156 52,149 48,134 41,112 38,92 38,84 38,83 38,76 39,57 42,36 44,24"];
+	Node3 -> Node2 [dir=back, color=midnightblue, style=solid, pos="s,57,210 57,200 57,191 57,179 57,172"];
+	Node4 -> Node1 [dir=back, color=darkorchid3, style=dashed, label=mFlockRef, pos="s,73,76 69,68 63,54 54,35 49,24", lp="97,50"];
+	Node2 -> Node4 [dir=back, color=midnightblue, style=solid, pos="s,59,156 61,148 65,131 72,106 75,92"];
+	Node2 -> Node4 [dir=back, color=darkorchid3, style=dashed, label="targetEntity\nchaserEntity", pos="s,66,156 72,149 75,145 77,142 79,138 84,122 82,103 79,92", lp="117,124"];
+}
